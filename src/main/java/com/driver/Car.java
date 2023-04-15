@@ -40,7 +40,7 @@ public class Car extends Vehicle {
     public int getWheels(){
         return this.wheels;
     }
-    public int getGears(){
+    public int getCurrentGear(){
         return this.gears;
     }
     public boolean isManual(){
