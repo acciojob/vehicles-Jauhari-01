@@ -27,6 +27,9 @@ public class F1 extends Car {
     public int getCurrentGear(){
         return super.getCurrentGear();
     }
+    public int getGears(){
+        return super.getGears();
+     }
     public boolean isManual(){
         return super.isManual();
     }

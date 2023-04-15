@@ -34,6 +34,9 @@ public class Car extends Vehicle {
     public int getDoors(){
         return this.doors;
     }
+    public int getGears(){
+       return gears;
+    }
     public String getType(){
         return type;
     }
@@ -41,7 +44,7 @@ public class Car extends Vehicle {
         return this.wheels;
     }
     public int getCurrentGear(){
-        return this.gears;
+        return this.currentGear;
     }
     public boolean isManual(){
         return this.isManual;
