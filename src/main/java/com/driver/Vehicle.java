@@ -9,9 +9,14 @@ public class Vehicle {
     public Vehicle(String name) {
         this.name = name;
     }
-
+    public String getName(){
+        return this.name;
+    }
     public int getCurrentDirection(){
         return this.currentDirection;
+    }
+    public int getCurrentSpeed(){
+        return this.currentSpeed;
     }
 
     public void steer(int direction){
